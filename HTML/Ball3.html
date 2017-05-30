@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en-US"
+<head>
+	<meta charset="UTF-8"
+	<title></title>
+	<style type="text/css">
+	#ball {
+		/* position it*/
+		position: absolute;
+		top: 200px;
+		left: 200px;
+		/*dimesions*/
+		width: 100px;
+		height: 100px;
+		/*offset to center around point*/
+		margin: -50px -50px;
+		background: blue;
+		/*roudning? */
+		border-radius: 50% 50%;
+		/* too jerky! */
+
+		transition: 0.5s;
+		
+	}
+	</style>
+
+</head>
+<body>
+
+<!-- 
+Let's have some fun with what browsers can do these days with plain html, css, and some vanilla JS!
+-->
+
+	<div id="ball"></div>
+
+	<!-- Sweet, now let's position it on click -->
+	<script>
+	  var ball = document.querySelector('#ball'); // < simple, innit?
+	  function positionBall(x, y) {
+	  	ball.style.top = y + 'px';
+	  	ball.style.left = x + 'px';
+	  }
+
+	  // getting the mouse position:
+	  document.addEventListener('click', function(ev){
+	  	var x = ev.pageX;
+	  	var y = ev.pageY;
+	  	positionBall(x, y);
+	  	localStorage.balllocation = x + ':' + y;
+	  }, false);
+
+	  if(localStorage.balllocation) {
+	  	var loc = localStorage.balllocation.split(':')
+	  	positionBall(loc[0], loc[1]);
+	  }
+
+	  //Now let's keep the last position
+
+
+
+
+	  </script>
+
+</body>
+</html>
