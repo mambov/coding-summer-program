@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10A65701F02F47B004A54EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A656F1F02F47B004A54EA /* main.m */; };
+		F10A65731F02F47B004A54EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A65721F02F47B004A54EA /* AppDelegate.m */; };
+		F10A65761F02F47B004A54EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A65751F02F47B004A54EA /* ViewController.m */; };
+		F10A65791F02F47B004A54EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A65771F02F47B004A54EA /* Main.storyboard */; };
+		F10A657B1F02F47B004A54EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10A657A1F02F47B004A54EA /* Assets.xcassets */; };
+		F10A657E1F02F47B004A54EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10A657C1F02F47B004A54EA /* LaunchScreen.storyboard */; };
+		F10A65891F02F47B004A54EA /* golf_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A65881F02F47B004A54EA /* golf_gameTests.m */; };
+		F10A65941F02F47B004A54EA /* golf_gameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A65931F02F47B004A54EA /* golf_gameUITests.m */; };
+		F10A65A21F02F5B1004A54EA /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F10A65A11F02F5B1004A54EA /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10A65851F02F47B004A54EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10A65631F02F47B004A54EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10A656A1F02F47B004A54EA;
+			remoteInfo = "golf game";
+		};
+		F10A65901F02F47B004A54EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10A65631F02F47B004A54EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10A656A1F02F47B004A54EA;
+			remoteInfo = "golf game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10A656B1F02F47B004A54EA /* golf game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golf game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10A656F1F02F47B004A54EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F10A65711F02F47B004A54EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F10A65721F02F47B004A54EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F10A65741F02F47B004A54EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F10A65751F02F47B004A54EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F10A65781F02F47B004A54EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10A657A1F02F47B004A54EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10A657D1F02F47B004A54EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10A657F1F02F47B004A54EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10A65841F02F47B004A54EA /* golf gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golf gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10A65881F02F47B004A54EA /* golf_gameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golf_gameTests.m; sourceTree = "<group>"; };
+		F10A658A1F02F47B004A54EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10A658F1F02F47B004A54EA /* golf gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golf gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10A65931F02F47B004A54EA /* golf_gameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golf_gameUITests.m; sourceTree = "<group>"; };
+		F10A65951F02F47B004A54EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10A65A11F02F5B1004A54EA /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../../Desktop/ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10A65681F02F47B004A54EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A65811F02F47B004A54EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A658C1F02F47B004A54EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10A65621F02F47B004A54EA = {
+			isa = PBXGroup;
+			children = (
+				F10A656D1F02F47B004A54EA /* golf game */,
+				F10A65871F02F47B004A54EA /* golf gameTests */,
+				F10A65921F02F47B004A54EA /* golf gameUITests */,
+				F10A656C1F02F47B004A54EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10A656C1F02F47B004A54EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10A656B1F02F47B004A54EA /* golf game.app */,
+				F10A65841F02F47B004A54EA /* golf gameTests.xctest */,
+				F10A658F1F02F47B004A54EA /* golf gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10A656D1F02F47B004A54EA /* golf game */ = {
+			isa = PBXGroup;
+			children = (
+				F10A65711F02F47B004A54EA /* AppDelegate.h */,
+				F10A65721F02F47B004A54EA /* AppDelegate.m */,
+				F10A65741F02F47B004A54EA /* ViewController.h */,
+				F10A65751F02F47B004A54EA /* ViewController.m */,
+				F10A65771F02F47B004A54EA /* Main.storyboard */,
+				F10A657A1F02F47B004A54EA /* Assets.xcassets */,
+				F10A657C1F02F47B004A54EA /* LaunchScreen.storyboard */,
+				F10A657F1F02F47B004A54EA /* Info.plist */,
+				F10A656E1F02F47B004A54EA /* Supporting Files */,
+			);
+			path = "golf game";
+			sourceTree = "<group>";
+		};
+		F10A656E1F02F47B004A54EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10A65A11F02F5B1004A54EA /* ball.png */,
+				F10A656F1F02F47B004A54EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F10A65871F02F47B004A54EA /* golf gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10A65881F02F47B004A54EA /* golf_gameTests.m */,
+				F10A658A1F02F47B004A54EA /* Info.plist */,
+			);
+			path = "golf gameTests";
+			sourceTree = "<group>";
+		};
+		F10A65921F02F47B004A54EA /* golf gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F10A65931F02F47B004A54EA /* golf_gameUITests.m */,
+				F10A65951F02F47B004A54EA /* Info.plist */,
+			);
+			path = "golf gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10A656A1F02F47B004A54EA /* golf game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10A65981F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf game" */;
+			buildPhases = (
+				F10A65671F02F47B004A54EA /* Sources */,
+				F10A65681F02F47B004A54EA /* Frameworks */,
+				F10A65691F02F47B004A54EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "golf game";
+			productName = "golf game";
+			productReference = F10A656B1F02F47B004A54EA /* golf game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10A65831F02F47B004A54EA /* golf gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10A659B1F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf gameTests" */;
+			buildPhases = (
+				F10A65801F02F47B004A54EA /* Sources */,
+				F10A65811F02F47B004A54EA /* Frameworks */,
+				F10A65821F02F47B004A54EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10A65861F02F47B004A54EA /* PBXTargetDependency */,
+			);
+			name = "golf gameTests";
+			productName = "golf gameTests";
+			productReference = F10A65841F02F47B004A54EA /* golf gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F10A658E1F02F47B004A54EA /* golf gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10A659E1F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf gameUITests" */;
+			buildPhases = (
+				F10A658B1F02F47B004A54EA /* Sources */,
+				F10A658C1F02F47B004A54EA /* Frameworks */,
+				F10A658D1F02F47B004A54EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10A65911F02F47B004A54EA /* PBXTargetDependency */,
+			);
+			name = "golf gameUITests";
+			productName = "golf gameUITests";
+			productReference = F10A658F1F02F47B004A54EA /* golf gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10A65631F02F47B004A54EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Diego Guerrero";
+				TargetAttributes = {
+					F10A656A1F02F47B004A54EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F10A65831F02F47B004A54EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F10A656A1F02F47B004A54EA;
+					};
+					F10A658E1F02F47B004A54EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F10A656A1F02F47B004A54EA;
+					};
+				};
+			};
+			buildConfigurationList = F10A65661F02F47B004A54EA /* Build configuration list for PBXProject "golf game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10A65621F02F47B004A54EA;
+			productRefGroup = F10A656C1F02F47B004A54EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10A656A1F02F47B004A54EA /* golf game */,
+				F10A65831F02F47B004A54EA /* golf gameTests */,
+				F10A658E1F02F47B004A54EA /* golf gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10A65691F02F47B004A54EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10A657E1F02F47B004A54EA /* LaunchScreen.storyboard in Resources */,
+				F10A657B1F02F47B004A54EA /* Assets.xcassets in Resources */,
+				F10A65A21F02F5B1004A54EA /* ball.png in Resources */,
+				F10A65791F02F47B004A54EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A65821F02F47B004A54EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A658D1F02F47B004A54EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10A65671F02F47B004A54EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10A65761F02F47B004A54EA /* ViewController.m in Sources */,
+				F10A65731F02F47B004A54EA /* AppDelegate.m in Sources */,
+				F10A65701F02F47B004A54EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A65801F02F47B004A54EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10A65891F02F47B004A54EA /* golf_gameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A658B1F02F47B004A54EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10A65941F02F47B004A54EA /* golf_gameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10A65861F02F47B004A54EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10A656A1F02F47B004A54EA /* golf game */;
+			targetProxy = F10A65851F02F47B004A54EA /* PBXContainerItemProxy */;
+		};
+		F10A65911F02F47B004A54EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10A656A1F02F47B004A54EA /* golf game */;
+			targetProxy = F10A65901F02F47B004A54EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10A65771F02F47B004A54EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10A65781F02F47B004A54EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10A657C1F02F47B004A54EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10A657D1F02F47B004A54EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10A65961F02F47B004A54EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10A65971F02F47B004A54EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10A65991F02F47B004A54EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "golf game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F10A659A1F02F47B004A54EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "golf game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F10A659C1F02F47B004A54EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "golf gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golf game.app/golf game";
+			};
+			name = Debug;
+		};
+		F10A659D1F02F47B004A54EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "golf gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golf game.app/golf game";
+			};
+			name = Release;
+		};
+		F10A659F1F02F47B004A54EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "golf gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "golf game";
+			};
+			name = Debug;
+		};
+		F10A65A01F02F47B004A54EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "golf gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingSummerProgram.golf-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "golf game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10A65661F02F47B004A54EA /* Build configuration list for PBXProject "golf game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10A65961F02F47B004A54EA /* Debug */,
+				F10A65971F02F47B004A54EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10A65981F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10A65991F02F47B004A54EA /* Debug */,
+				F10A659A1F02F47B004A54EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F10A659B1F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10A659C1F02F47B004A54EA /* Debug */,
+				F10A659D1F02F47B004A54EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F10A659E1F02F47B004A54EA /* Build configuration list for PBXNativeTarget "golf gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10A659F1F02F47B004A54EA /* Debug */,
+				F10A65A01F02F47B004A54EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10A65631F02F47B004A54EA /* Project object */;
+}
